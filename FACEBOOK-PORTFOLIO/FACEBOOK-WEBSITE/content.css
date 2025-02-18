@@ -87,13 +87,13 @@
                   align-items: center;
                   padding-top: 10px;
                   line-height: 30px;
-                  height: 400px;
+                  height: 340px;
                   border-radius: 8px;
                   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
                   width: 400px;}
 .email-bar{       width: 360px;
-                  height: 40px;
-                  font-size: 15px;
+                  height: 50px;
+                  font-size: 16px;
                   padding-left: 15px;
                   border-radius: 8px;
                   border: 1px solid rgb(205, 205, 205);}
@@ -103,9 +103,9 @@
                   box-shadow:  0 0 2px blue;
                   outline: none;}
 .password-bar{    width: 360px;
-                  height: 40px;
+                  height: 50px;
                   margin-top: 10px;
-                  font-size: 15px;
+                  font-size: 16px;
                   padding-left: 15px;
                   border-radius: 8px;
                   border: 1px solid rgb(205, 205, 205);}
@@ -114,21 +114,33 @@
                      box-shadow:  0 0 2px blue;
                      outline: none }
 .login-button{       width: 380px;
-                      height: 40px;
+                      height: 50px;
                       margin-top: 10px;
                       border-radius: 6px;
                       border: none;
                       background-color: rgb(0, 98, 255);
                       color: white;
-                      font-size: 17px;
+                      font-size: 19px;
                       font-weight: bold;}
 .Forgotten-link{      text-decoration: none;
                       color: rgb(0, 4, 255);
-                      font-size: 13px;
+                      font-size: 15px;
                       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                      margin-top: 15px;}
+                      margin-top: 8px;}
 .Forgotten-link-div{  display: flex;
                       justify-content: center;
                       width: 380px;
                       height: 60px;
                       border-bottom: 1px solid rgb(205, 205, 205);}
+.creat-button{        width: 180px;
+                      background-color: rgb(79, 189, 60);
+                      color: white;
+                      border: none;
+                      height: 50px;
+                      border-radius: 6px;
+                      font-size: 16px;
+                      font-weight: bold;}
+                      
+.creat-button-div{    display: flex;
+                      margin-top: 25px;
+                      justify-content: center;}
