@@ -1,9 +1,14 @@
 .facebook-prtfolio{ display: flex;
-                    flex-direction: row;
+                    
+                    flex: 1fr;
                     justify-content: center;
                     align-items: center;
                     align-self: center;
-                    column-gap: 200px;}
+                   column-gap: 200px;}
+
+@media(max-width:900px) {
+  .facebook-prtfolio{ flex: 1fr;}
+}
 
 .profiles-container{display: flex;
                     flex-direction: row;
@@ -74,3 +79,10 @@
                   border-bottom-right-radius: 8px;
                   color: rgb(0, 102, 255);
                   font-size: 17px;}
+
+.second-container{display: flex;
+                  flex-direction: column;
+                  background-color: white;
+                  flex: 1fr;
+                  width: 400px;}
+.email-bar{       }
