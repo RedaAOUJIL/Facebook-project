@@ -85,5 +85,9 @@
                   flex-direction: column;
                   background-color: white;
                   flex: 1fr;
+                  align-items: center;
+                  padding-top: 10px;
+                  line-height: 30px;
+                  height: 400px;
                   width: 400px;}
 .email-bar{       }
