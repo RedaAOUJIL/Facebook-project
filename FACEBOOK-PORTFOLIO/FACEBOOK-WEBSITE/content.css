@@ -1,5 +1,4 @@
-.facebook-prtfolio{ display: grid;
-                    grid-template-columns: 1fr 1fr;
+.facebook-prtfolio{ display:flex;
                     justify-content: center;
                     align-items: center;
                     align-self: center;
@@ -7,8 +6,9 @@
                     row-gap: 20px;}
 
 @media (max-width:900px) {
-  .facebook-prtfolio{ grid-template-columns: 1fr; }
-}
+  .facebook-prtfolio{ flex: 1;
+                      flex-direction: row; }
+                      }
 
 .profiles-container{display: flex;
                     flex-direction: row;
