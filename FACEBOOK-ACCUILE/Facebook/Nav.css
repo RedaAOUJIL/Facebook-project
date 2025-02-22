@@ -9,7 +9,8 @@
 
 .Facebook-logo{width: 40px;
                 margin-right: 10px;
-                margin-left: 10px;}
+                margin-left: 10px;
+                cursor: pointer;}
 
 .search-contatiner{display: flex;
                     flex-direction: row;}
@@ -34,11 +35,13 @@
 .center-side{                 display: flex;
                               flex-direction: row;
                               justify-content: space-between;
+                              align-items: center;
                               width: 300px;}
 .home-logo-button{            width: 40px;
+                              cursor: pointer;
                               background-color:  white;
                               border: none;}
-.home-logo{                   width: 40px;}
+.home-logo{                   width: 30px;}
 .friends-logo-button{         width: 40px;}
 .friends-logo{                width: 40px;}
 .groups-logo-button{          width: 40px;}
