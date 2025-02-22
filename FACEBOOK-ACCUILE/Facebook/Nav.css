@@ -45,9 +45,11 @@
 
 .friends-logo-button{         width: 30px;
                                 background-color: white;
-                                border: none;}
+                                border: none;
+                                cursor: pointer;}
 .friends-logo{                width: 35px;}
 .groups-logo-button{          width: 40px;
                                 background-color: white;
-                                border: 0;}
+                                border: 0;
+                                cursor: pointer;}
 .groups-logo{                 width: 32px;}
