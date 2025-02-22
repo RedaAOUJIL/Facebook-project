@@ -1,6 +1,7 @@
 .nav-bar{display: flex;
         flex-direction: row;
-        position: fixed;}
+        position: fixed;
+        justify-content: space-between;}
 
 .left-side{display: flex;
           flex-direction: row;
@@ -17,15 +18,28 @@
                     border: none;
                     border-top-left-radius: 18px;
                     border-bottom-left-radius: 18px;
-                    background-color: rgb(73, 71, 71);}
-.search-logo{       width: 23px;}
+                    background-color: rgb(235, 234, 234);}
+.search-logo{       width: 21px;}
 .search-facebook{   width: 200px;
                     height: 40px;
                     margin-left: -1px;
                     border-left: none;
                     border: none;
-                    background-color:  rgb(73, 71, 71);
+                    background-color:  rgb(235, 234, 234);
                     border-top-right-radius: 18px;
                     border-bottom-right-radius: 18px;}
-.search-facebook::placeholder{color: rgb(176, 176, 176);
+.search-facebook::placeholder{color: rgb(119, 118, 118);
                               font-size: 15px;}
+
+.center-side{                 display: flex;
+                              flex-direction: row;
+                              justify-content: space-between;
+                              width: 300px;}
+.home-logo-button{            width: 40px;
+                              background-color:  white;
+                              border: none;}
+.home-logo{                   width: 40px;}
+.friends-logo-button{         width: 40px;}
+.friends-logo{                width: 40px;}
+.groups-logo-button{          width: 40px;}
+.groups-logo{                 width: 40px;}
