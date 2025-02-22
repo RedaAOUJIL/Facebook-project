@@ -1,0 +1,13 @@
+.nav-bar{display: flex;
+        flex-direction: row;
+        position: fixed;}
+
+.left-side{display: flex;
+          flex-direction: row;
+          align-items: center;}
+
+.Facebook-logo{width: 40px;
+                margin-right: 10px;}
+
+.search-contatiner{display: flex;
+                    flex-direction: row;}
