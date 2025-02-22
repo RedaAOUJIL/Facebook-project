@@ -54,7 +54,17 @@
                                 cursor: pointer;}
 .groups-logo{                 width: 32px;}
 
-.right-side{                  display: flex;
+.right-side{                    display: flex;
                                 flex-direction: row;}
-.find-button{                  width: 100px;
-                                white-space: nowrap;}
+.find-button{                   padding: 10px 10px 10px 10px;
+                                border-radius: 18px;
+                                white-space: nowrap;
+                                background-color: rgb(218, 217, 217);
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 14px;
+                                font-weight: 550;
+                                cursor: pointer;}
+.find-button-link, .find-button-link:active, .find-button-link:visited, .find-button-link:hover{text-decoration: none;
+                                color: rgb(0, 106, 255);}
+
+                        
