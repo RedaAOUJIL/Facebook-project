@@ -1,7 +1,11 @@
 .nav-bar{display: flex;
         flex-direction: row;
         position: fixed;
-        justify-content: space-between;}
+        justify-content: space-between;
+        right: 0;
+        left:0;
+        top: 0;
+        height: 60px;}
 
 .left-side{display: flex;
           flex-direction: row;
@@ -55,16 +59,25 @@
 .groups-logo{                 width: 32px;}
 
 .right-side{                    display: flex;
-                                flex-direction: row;}
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: space-between;}
 .find-button{                   padding: 10px 10px 10px 10px;
                                 border-radius: 18px;
                                 white-space: nowrap;
-                                background-color: rgb(218, 217, 217);
+                                background-color: rgb(241, 254, 254);
                                 font-family: Arial, Helvetica, sans-serif;
                                 font-size: 14px;
                                 font-weight: 550;
                                 cursor: pointer;}
 .find-button-link, .find-button-link:active, .find-button-link:visited, .find-button-link:hover{text-decoration: none;
-                                color: rgb(0, 106, 255);}
+                                color: rgb(46, 133, 255);}
+.apps-logo{                     width:28px ;}
+.apps-logo-button{              border-radius: 30px;
+                                border: none; 
+                                padding: 3px 3px 0px 3px;}
+.messenger-logo{                width: 30px;}
+.notification-logo{             width: 30px;}
+.picture-profile{               width: 30px;}
 
                         
