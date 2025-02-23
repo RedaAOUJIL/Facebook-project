@@ -51,33 +51,40 @@
                                 background-color: white;
                                 border: none;
                                 cursor: pointer;}
-.friends-logo{                width: 35px;}
-.groups-logo-button{          width: 40px;
+.friends-logo{                  width: 35px;}
+.groups-logo-button{            width: 40px;
                                 background-color: white;
                                 border: 0;
                                 cursor: pointer;}
-.groups-logo{                 width: 32px;}
+.groups-logo{                   width: 32px;}
 
 .right-side{                    display: flex;
                                 flex-direction: row;
                                 align-items: center;
-                                justify-content: space-between;}
+                                justify-content: space-between;
+                                width: 330px;
+                                margin-right: 30px;}
 .find-button{                   padding: 10px 10px 10px 10px;
                                 border-radius: 18px;
                                 white-space: nowrap;
-                                background-color: rgb(241, 254, 254);
+                                background-color: rgb(228, 228, 228);
                                 font-family: Arial, Helvetica, sans-serif;
                                 font-size: 14px;
                                 font-weight: 550;
                                 cursor: pointer;}
 .find-button-link, .find-button-link:active, .find-button-link:visited, .find-button-link:hover{text-decoration: none;
-                                color: rgb(46, 133, 255);}
+                                color: black;}
 .apps-logo{                     width:28px ;}
 .apps-logo-button{              border-radius: 30px;
                                 border: none; 
-                                padding: 3px 3px 0px 3px;}
-.messenger-logo{                width: 30px;}
-.notification-logo{             width: 30px;}
-.picture-profile{               width: 30px;}
-
-                        
+                                padding: 5px 5px 2px 5px;}
+.messenger-logo{                width: 25px;}
+.messenger-logo-button{         border: none;
+                                border-radius: 20px;
+                                padding: 7px 7px 4px 7px;}
+.notification-logo{             width: 25px;}
+.notification-logo-button{      border: none;
+                                border-radius: 20px;
+                                padding: 7px 7px 4px 7px;}
+.picture-profile{               width: 35px;
+                                border-radius: 20px;}
