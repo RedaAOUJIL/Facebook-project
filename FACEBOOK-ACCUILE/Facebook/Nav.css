@@ -45,12 +45,37 @@
 .home-logo-button{            width: 100px;
                               height: 50px;  
                               cursor: pointer;
+                              position: relative;
                               background-color: white;
                               border-radius: 8px;
                               border: none;}
 .home-logo{                   width: 30px;}
 .home-logo-button:hover{      background-color: rgb(242, 242, 242);}
-
+.home-tool{                   position: absolute;
+                              background-color: black;
+                              color: white;
+                              font-size: 13px;
+                              bottom: -43px;
+                              right: 24px;
+                              opacity: 0;
+                              pointer-events: none;                      
+                              animation: showElement 0.3s ease-in forwards;
+                              animation-delay: 2s;
+                              visibility: hidden;
+                              padding: 8px 10px 8px 10px;
+                              border-radius: 11px;}
+.home-logo-button:hover .home-tool{opacity: 1;
+                                   animation: showElement 0.3s ease-in forwards;
+                                   animation-delay: 2s;
+                                   visibility: visible;}
+@keyframes showElement{           
+        from{
+                opacity: 0;
+                visibility: hidden;
+        }
+        to{ opacity: 1;
+                visibility: visible;}
+}
 .friends-logo-button{           width: 100px;
                                 height: 50px;
                                 border-radius: 8px;
