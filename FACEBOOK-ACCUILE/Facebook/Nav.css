@@ -52,7 +52,7 @@
 .home-logo{                   width: 30px;}
 .home-logo-button:hover{      background-color: rgb(242, 242, 242);}
 .home-tool{                   position: absolute;
-                              background-color: black;
+                              background-color: rgb(54, 54, 54);
                               color: white;
                               font-size: 13px;
                               bottom: -43px;
