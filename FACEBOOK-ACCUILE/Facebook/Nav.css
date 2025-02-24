@@ -42,14 +42,16 @@
                               justify-content: space-between;
                               align-items: center;
                               width: 300px;}
-.home-logo-button{            width: 40px;
+.home-logo-button{            width: 100px;
+                              height: 60px;  
                               cursor: pointer;
-                              background-color:  white;
+                              background-color: lightblue;
                               border: none;}
 .home-logo{                   width: 30px;}
 
-.friends-logo-button{         width: 30px;
-                                background-color: white;
+.friends-logo-button{           width: 100px;
+                                height: 60px;
+                                background-color: lightpink;
                                 border: none;
                                 cursor: pointer;}
 .friends-logo{                  width: 35px;}
