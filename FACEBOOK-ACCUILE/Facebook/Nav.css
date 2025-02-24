@@ -5,7 +5,8 @@
         right: 0;
         left:0;
         top: 0;
-        height: 60px;}
+        height: 60px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);}
 
 .left-side{display: flex;
           flex-direction: row;
@@ -72,8 +73,11 @@
                                 font-size: 14px;
                                 font-weight: 550;
                                 cursor: pointer;}
-.find-button-link, .find-button-link:active, .find-button-link:visited, .find-button-link:hover{text-decoration: none;
+.find-button-link, .find-button-link:active, .find-button-link:visited {text-decoration: none;
                                 color: black;}
+.find-button:hover{             text-decoration: none;
+                                color: black;
+                                background-color: rgb(210, 210, 210);}
 .apps-logo{                     width:28px ;}
 .apps-logo-button{              border-radius: 30px;
                                 border: none; 
