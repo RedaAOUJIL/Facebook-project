@@ -76,6 +76,8 @@
                                 margin-right: 30px;}
 .find-button{                   padding: 10px 10px 10px 10px;
                                 border-radius: 18px;
+                                border: none;
+                                text-decoration: none;
                                 white-space: nowrap;
                                 background-color: rgb(228, 228, 228);
                                 font-family: Arial, Helvetica, sans-serif;
@@ -83,6 +85,7 @@
                                 font-weight: 550;
                                 cursor: pointer;}
 .find-button-link, .find-button-link:active, .find-button-link:visited {text-decoration: none;
+                                border: none;
                                 color: black;}
 .find-button:hover{             text-decoration: none;
                                 color: black;
