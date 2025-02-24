@@ -41,25 +41,32 @@
                               flex-direction: row;
                               justify-content: space-between;
                               align-items: center;
-                              width: 300px;}
+                              width: 340px;}
 .home-logo-button{            width: 100px;
-                              height: 60px;  
+                              height: 50px;  
                               cursor: pointer;
-                              background-color: lightblue;
+                              background-color: white;
+                              border-radius: 8px;
                               border: none;}
 .home-logo{                   width: 30px;}
+.home-logo-button:hover{      background-color: rgb(242, 242, 242);}
 
 .friends-logo-button{           width: 100px;
-                                height: 60px;
-                                background-color: lightpink;
+                                height: 50px;
+                                border-radius: 8px;
+                                background-color: white;
                                 border: none;
                                 cursor: pointer;}
 .friends-logo{                  width: 35px;}
-.groups-logo-button{            width: 40px;
-                                background-color: white;
+.friends-logo-button:hover{     background-color: rgb(242, 242, 242);}
+.groups-logo-button{            width: 100px;
+                                height: 50px;
+                                border-radius: 8px;
+                                background-color:white;
                                 border: 0;
                                 cursor: pointer;}
 .groups-logo{                   width: 32px;}
+.groups-logo-button:hover{      background-color: rgb(242, 242, 242);}
 
 .right-side{                    display: flex;
                                 flex-direction: row;
