@@ -58,24 +58,11 @@
                               bottom: -43px;
                               right: 24px;
                               opacity: 0;
-                              pointer-events: none;                      
-                              animation: showElement 0.3s ease-in forwards;
-                              animation-delay: 2s;
-                              visibility: hidden;
+                              pointer-events: none;
                               padding: 8px 10px 8px 10px;
                               border-radius: 11px;}
-.home-logo-button:hover .home-tool{opacity: 1;
-                                   animation: showElement 0.3s ease-in forwards;
-                                   animation-delay: 2s;
-                                   visibility: visible;}
-@keyframes showElement{           
-        from{
-                opacity: 0;
-                visibility: hidden;
-        }
-        to{ opacity: 1;
-                visibility: visible;}
-}
+.home-logo-button:hover .home-tool{opacity: 1;}
+
 .friends-logo-button{           width: 100px;
                                 height: 50px;
                                 border-radius: 8px;
