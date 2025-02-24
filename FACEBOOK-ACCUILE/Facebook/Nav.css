@@ -80,15 +80,21 @@
                                 background-color: rgb(210, 210, 210);}
 .apps-logo{                     width:28px ;}
 .apps-logo-button{              border-radius: 30px;
-                                border: none; 
+                                border: none;
+                                cursor: pointer; 
                                 padding: 5px 5px 2px 5px;}
+.apps-logo-button:hover{        background-color: rgb(210,210,210);}
 .messenger-logo{                width: 25px;}
 .messenger-logo-button{         border: none;
                                 border-radius: 20px;
+                                cursor: pointer;
                                 padding: 7px 7px 4px 7px;}
+.messenger-logo-button:hover{   background-color: rgb(210, 210,210);}
 .notification-logo{             width: 25px;}
 .notification-logo-button{      border: none;
+                                cursor: pointer;
                                 border-radius: 20px;
                                 padding: 7px 7px 4px 7px;}
+.notification-logo-button:hover{background-color: rgb(210, 210, 210);}
 .picture-profile{               width: 38px;
                                 border-radius: 20px;}
