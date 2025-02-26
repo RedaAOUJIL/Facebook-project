@@ -83,15 +83,17 @@
                                 padding: 8px 10px 8px 10px;
                                 border-radius: 11px;}
 .friends-logo-button:hover .friends-tool{opacity: 1;}
-/*I stop here.......*/
+
 .groups-logo-button{            width: 100px;
                                 height: 50px;
+                                position: relative;
                                 border-radius: 8px;
                                 background-color:white;
                                 border: 0;
                                 cursor: pointer;}
 .groups-logo{                   width: 32px;}
 .groups-logo-button:hover{      background-color: rgb(242, 242, 242);}
+.groups-tool{                   position: absolute;}
 
 .right-side{                    display: flex;
                                 flex-direction: row;
