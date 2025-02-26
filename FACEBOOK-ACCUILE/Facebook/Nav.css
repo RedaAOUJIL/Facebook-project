@@ -57,6 +57,7 @@
                               font-size: 13px;
                               bottom: -43px;
                               right: 24px;
+                              box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);       
                               opacity: 0;
                               pointer-events: none;
                               padding: 8px 10px 8px 10px;
@@ -78,6 +79,7 @@
                                 font-size: 13px;
                                 bottom: -43px;
                                 right: 18px;
+                                box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
                                 opacity: 0;
                                 pointer-events: none;
                                 padding: 8px 10px 8px 10px;
@@ -99,6 +101,7 @@
                                 padding: 8px 10px 8px 10px;
                                 border-radius: 11px;
                                 bottom: -43px;
+                                box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
                                 right: 20px;
                                 pointer-events: none;
                                 opacity: 0;}
@@ -133,7 +136,17 @@
                                 cursor: pointer; 
                                 padding: 5px 5px 2px 5px;}
 .apps-logo-button:hover{        background-color: rgb(210,210,210);}
-.menu-tool{                     position: absolute;}
+.menu-tool{                     position: absolute;
+                                bottom: -43px;
+                                right: -7px;
+                                background-color: rgb(56, 56, 56);
+                                color: white;
+                                padding: 8px 10px 8px 10px;
+                                border-radius: 11px;
+                                box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+                                pointer-events: none;
+                                opacity: 0;}
+.apps-logo-button:hover .menu-tool{opacity: 1;}
 
 .messenger-logo{                width: 25px;}
 .messenger-logo-button{         border: none;
