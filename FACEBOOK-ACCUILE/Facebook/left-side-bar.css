@@ -6,8 +6,10 @@
               bottom: 0;
               top: 60px;
               width: 300px;
-              padding-top: 30px;
+              padding-top: 20px;
               padding-left: 10px;}
+.left-side-bar:hover{border-right: 8px rgb(188, 188, 188) solid;
+                      border-radius: 8px;}
 .object-container{display: flex;
                   flex-direction: row;
                   padding-left: 10px;
