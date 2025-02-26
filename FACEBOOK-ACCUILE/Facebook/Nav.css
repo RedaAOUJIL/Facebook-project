@@ -93,7 +93,16 @@
                                 cursor: pointer;}
 .groups-logo{                   width: 32px;}
 .groups-logo-button:hover{      background-color: rgb(242, 242, 242);}
-.groups-tool{                   position: absolute;}
+.groups-tool{                   position: absolute;
+                                background-color: rgb(50, 50, 50);
+                                color: white;
+                                padding: 8px 10px 8px 10px;
+                                border-radius: 11px;
+                                bottom: -43px;
+                                right: 20px;
+                                pointer-events: none;
+                                opacity: 0;}
+.groups-logo-button:hover .groups-tool{opacity: 1;}
 
 .right-side{                    display: flex;
                                 flex-direction: row;
