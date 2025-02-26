@@ -186,5 +186,21 @@
                                 opacity: 0;}
 .notification-logo-button:hover .notification-tool{opacity: 1;}
 
+.account-container{             position: relative;
+                                cursor: pointer;}
 .picture-profile{               width: 38px;
                                 border-radius: 20px;}
+.account-tool{                  position: absolute;
+                                bottom: -43px;
+                                right: -10px;
+                                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                background-color: rgb(61, 61, 61);
+                                font-size: 13px;
+                                color:white ;
+                                padding: 8px 10px 8px 10px;
+                                border-radius: 11px;
+                                box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+                                pointer-events: none;
+                                opacity: 0;} 
+.account-container:hover .account-tool{opacity: 1;}
+                                                         
