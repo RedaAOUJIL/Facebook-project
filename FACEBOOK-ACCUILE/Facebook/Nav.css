@@ -129,9 +129,12 @@
 .apps-logo{                     width:28px ;}
 .apps-logo-button{              border-radius: 30px;
                                 border: none;
+                                position: relative;
                                 cursor: pointer; 
                                 padding: 5px 5px 2px 5px;}
 .apps-logo-button:hover{        background-color: rgb(210,210,210);}
+.menu-tool{                     position: absolute;}
+
 .messenger-logo{                width: 25px;}
 .messenger-logo-button{         border: none;
                                 border-radius: 20px;
