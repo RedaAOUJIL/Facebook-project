@@ -1,11 +1,13 @@
 .nav-bar{display: flex;
         flex-direction: row;
         position: fixed;
+        background-color: white;
         justify-content: space-between;
         right: 0;
         left:0;
         top: 0;
         height: 60px;
+        z-index: 100;
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);}
 
 .left-side{display: flex;
