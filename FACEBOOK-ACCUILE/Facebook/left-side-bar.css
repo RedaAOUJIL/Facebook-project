@@ -5,6 +5,7 @@
               left: 0;
               bottom: 0;
               top: 60px;
+              z-index: 100;
               width: 300px;
               padding-top: 20px;
               padding-left: 10px;}
