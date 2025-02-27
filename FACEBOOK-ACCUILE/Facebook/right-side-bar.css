@@ -60,3 +60,6 @@
                   border: 0;
                   background-color: rgb(215, 215, 215);
                   margin-left: 10px;}
+.second-container{display: flex;
+                  flex-direction: row;
+                  align-items: center;}
