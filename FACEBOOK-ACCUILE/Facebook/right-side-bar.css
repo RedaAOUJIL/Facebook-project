@@ -53,3 +53,10 @@
 .points-pic{  width: 20px;
               height: 20px;
               border-radius: 10px;}
+.plus-icon{   width: 20px;}
+.plus-icon-button{border-radius: 20px;
+                  width: 40px;
+                  height: 40px;
+                  border: 0;
+                  background-color: rgb(215, 215, 215);
+                  margin-left: 10px;}
