@@ -123,21 +123,21 @@
                                 background-color: rgb(228, 228, 228);
                                 font-family: Arial, Helvetica, sans-serif;
                                 font-size: 14px;
-                                font-weight: 550;
+                                font-weight: bold;
                                 cursor: pointer;}
 .find-button-link, .find-button-link:active, .find-button-link:visited {text-decoration: none;
                                 border: none;
                                 color: black;}
 .find-button:hover{             text-decoration: none;
                                 color: black;
-                                background-color: rgb(210, 210, 210);}
+                                background-color:rgb(221, 221, 221);}
 .apps-logo{                     width:28px ;}
 .apps-logo-button{              border-radius: 30px;
                                 border: none;
                                 position: relative;
                                 cursor: pointer; 
                                 padding: 5px 5px 2px 5px;}
-.apps-logo-button:hover{        background-color: rgb(210,210,210);}
+.apps-logo-button:hover{        background-color: rgb(221, 221, 221);}
 .menu-tool{                     position: absolute;
                                 bottom: -43px;
                                 right: -7px;
@@ -156,7 +156,7 @@
                                 border-radius: 20px;
                                 cursor: pointer;
                                 padding: 7px 7px 4px 7px;}
-.messenger-logo-button:hover{   background-color: rgb(210, 210,210);}
+.messenger-logo-button:hover{   background-color:rgb(221, 221, 221);}
 .messenger-tool{                position: absolute;
                                 bottom: -43px;
                                 right: -25px;
@@ -175,7 +175,7 @@
                                 cursor: pointer;
                                 border-radius: 20px;
                                 padding: 7px 7px 4px 7px;}
-.notification-logo-button:hover{background-color: rgb(210, 210, 210);}
+.notification-logo-button:hover{background-color:rgb(221, 221, 221);}
 .notification-tool{             position: absolute;
                                 bottom: -43px;
                                 right: -25px;
