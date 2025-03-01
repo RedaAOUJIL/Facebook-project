@@ -145,10 +145,12 @@
                                 color: white;
                                 padding: 8px 10px 8px 10px;
                                 border-radius: 11px;
+                                z-index: 200;
                                 box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
                                 pointer-events: none;
                                 opacity: 0;}
-.apps-logo-button:hover .menu-tool{opacity: 1;}
+.apps-logo-button:hover .menu-tool{opacity: 1;
+                                z-index: 200;}
 
 .messenger-logo{                width: 19px;}
 .messenger-logo-button{         border: none;
