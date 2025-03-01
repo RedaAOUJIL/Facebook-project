@@ -131,12 +131,12 @@
 .find-button:hover{             text-decoration: none;
                                 color: black;
                                 background-color:rgb(221, 221, 221);}
-.apps-logo{                     width:28px ;}
+.apps-logo{                     width:25px ;}
 .apps-logo-button{              border-radius: 30px;
                                 border: none;
                                 position: relative;
                                 cursor: pointer; 
-                                padding: 5px 5px 2px 5px;}
+                                padding: 7px 7px 4px 7px;}
 .apps-logo-button:hover{        background-color: rgb(221, 221, 221);}
 .menu-tool{                     position: absolute;
                                 bottom: -43px;
@@ -150,12 +150,12 @@
                                 opacity: 0;}
 .apps-logo-button:hover .menu-tool{opacity: 1;}
 
-.messenger-logo{                width: 25px;}
+.messenger-logo{                width: 19px;}
 .messenger-logo-button{         border: none;
                                 position: relative;
                                 border-radius: 20px;
                                 cursor: pointer;
-                                padding: 7px 7px 4px 7px;}
+                                padding: 10px 10px 7px 10px;}
 .messenger-logo-button:hover{   background-color:rgb(221, 221, 221);}
 .messenger-tool{                position: absolute;
                                 bottom: -43px;
@@ -169,12 +169,12 @@
                                 border-radius: 11px;}
 .messenger-logo-button:hover .messenger-tool{opacity: 1;}
 
-.notification-logo{             width: 25px;}
+.notification-logo{             width: 19px;}
 .notification-logo-button{      border: none;
                                 position: relative;
                                 cursor: pointer;
                                 border-radius: 20px;
-                                padding: 7px 7px 4px 7px;}
+                                padding: 10px 10px 7px 10px;}
 .notification-logo-button:hover{background-color:rgb(221, 221, 221);}
 .notification-tool{             position: absolute;
                                 bottom: -43px;
