@@ -57,6 +57,7 @@
 
 .second-div{        background-color: white;
                     display: flex;
+                    justify-content: center;
                     align-items: center;
                     width: 580px;
                     height: 70px;
@@ -64,8 +65,8 @@
                     border-radius: 8px;
                     cursor: pointer;
                     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);}
-.second-divv{       width: 560px;
-                    height: 60px;
+.second-divv{       width: 90%;
+                    height: 80%;
                     background-color: lightblue;
                     display: flex;
                     flex-direction: row;
