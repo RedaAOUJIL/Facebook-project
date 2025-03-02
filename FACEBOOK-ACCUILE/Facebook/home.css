@@ -93,3 +93,13 @@
 .share-para{        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                     color: gray;}
 .create-link, .create-link:hover, .create-link:active{text-decoration: none;}
+
+.therd-conatiner{display: flex;
+                flex-direction: column;
+                margin-top: 10px;
+                width: 580px;
+                height: 600px;
+                background-color: white;}
+.houssam-account{width: 40px;
+                  height: 40px;
+                  border-radius: 20px;}
