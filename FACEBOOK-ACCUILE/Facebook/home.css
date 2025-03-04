@@ -210,9 +210,12 @@
                         justify-content: center;}
 .kac-picture{       width: 500px;}
 
+.reaction-container{display: flex;
+                    justify-content: center;}
 .emojis-container{  display: flex;
                     flex-direction: row;
-                    background-color: lightblue;}
+                    background-color: lightblue;
+                    width: 550px;}
 .like-emoji{        width: 20px;}
 .heart-emoji{       width: 20px;}
 .solidary-emoji{    width: 20px;}
