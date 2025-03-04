@@ -209,3 +209,10 @@
 .kac-picture-container{display: flex;
                         justify-content: center;}
 .kac-picture{       width: 500px;}
+
+.emojis-container{  display: flex;
+                    flex-direction: row;
+                    background-color: lightblue;}
+.like-emoji{        width: 20px;}
+.heart-emoji{       width: 20px;}
+.solidary-emoji{    width: 20px;}
