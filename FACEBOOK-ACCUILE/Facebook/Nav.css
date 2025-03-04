@@ -51,7 +51,7 @@
                               background-color: white;
                               border-radius: 8px;
                               border: none;}
-.home-logo{                   width: 30px;}
+.home-logo{                   width: 25px;}
 .home-logo-button:hover{      background-color: rgb(242, 242, 242);}
 .home-tool{                   position: absolute;
                               background-color: rgb(54, 54, 54);
@@ -73,7 +73,7 @@
                                 background-color: white;
                                 border: none;
                                 cursor: pointer;}
-.friends-logo{                  width: 35px;}
+.friends-logo{                  width: 30px;}
 .friends-logo-button:hover{     background-color: rgb(242, 242, 242);}
 .friends-tool{                  position: absolute;
                                 background-color: rgb(54, 54, 54);
@@ -95,7 +95,7 @@
                                 background-color:white;
                                 border: 0;
                                 cursor: pointer;}
-.groups-logo{                   width: 32px;}
+.groups-logo{                   width: 30px;}
 .groups-logo-button:hover{      background-color: rgb(242, 242, 242);}
 .groups-tool{                   position: absolute;
                                 background-color: rgb(50, 50, 50);
