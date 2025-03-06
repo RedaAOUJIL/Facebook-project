@@ -34,11 +34,27 @@
                   pointer-events: none;
                   opacity: 0;
                   height: 230px;}
+.helala-tools{    position: absolute;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: white;
+                  width: 480px;
+                  bottom: -230px;
+                  left: -100px;
+                  border-radius: 8px;
+                  pointer-events: none;
+                  opacity: 1;
+                  height: 230px;}
 
 .houssam-account-container:hover .profile-tools{opacity: 1;}
 .profile-name-div:hover .profile-tools{opacity: 1;}
+.ultra-helala-container:hover .helala-tools{opacity: 1;}
 .profile-name-div{position: relative;
                   display: flex;}
+.ultra-helala-container{display: flex;
+                        position: relative;}
 .picture-content-container{display: flex;
                         flex-direction: row;
                         align-items: start;
