@@ -417,6 +417,14 @@
                               border-radius: 8px;
                               box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
                               background-color: white; }
+.fourts-conatiner{            display: flex;
+                              flex-direction: column;
+                              margin-top: 10px;
+                              width: 580px;
+                              height: 750px;
+                              border-radius: 8px;
+                              box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+                              background-color: white; }
 .arab-div{                    display: flex;
                               flex-direction: column;
                               justify-self: right;
@@ -427,6 +435,11 @@
                               font-size: 15px;}
 .kac--picture-container{      display: flex;
                               background-color: black;
+                              cursor: pointer;
+                              justify-content: center;}
+.soul--picture-container{     display: flex;
+                              background-color: rgb(137, 103, 137);
+                              height: 463px;
                               cursor: pointer;
                               justify-content: center;}
 .translation--container{      display: flex;
