@@ -64,7 +64,29 @@
                         font-size: 18px;}
 .buttons-tool{          display: flex;
                         flex-direction: row;}
-.messenger-chat-button{}
+.messenger-chat-button{ width: 150px;
+                        height: 45px;
+                        display: flex;
+                        flex-direction: row;
+                        font-size: 17px;
+                        column-gap: 10px;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 8px;
+                        border: none;}
+.messenger-chat{        width: 20px;}
+.folder-add-button{     width: 150px;
+                        height: 45px;
+                        display: flex;
+                        flex-direction: row;
+                        font-size: 17px;
+                        column-gap: 10px;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 8px;
+                        background-color:#05acff ;
+                        border: none;}
+.folder-add{            width: 20px;}
 
 .whats-bar{     width: 480px;
                 height: 40px;
