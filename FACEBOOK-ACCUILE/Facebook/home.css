@@ -20,34 +20,36 @@
 .profile-image{width: 40px;
                 height: 40px;
                 border-radius: 20px;
-                cursor: pointer;
-                position: relative;}
+                cursor: pointer;}
 .profile-tools{ position: absolute;
                   display: flex;
                   flex-direction: column;
                   justify-content: center;
                   align-items: center;
-                  background-color: lightblue;
+                  background-color: white;
                   width: 480px;
-                  bottom: 128px;
-                  left: 320px;
+                  bottom: -230px;
+                  left: -100px;
                   border-radius: 8px;
                   pointer-events: none;
                   opacity: 0;
-                  z-index: 100;
                   height: 230px;}
-.profile-image:hover .profile-tools{opacity: 1;
-                                    z-index: 100;}
+
+.houssam-account-container:hover .profile-tools{opacity: 1;}
+.profile-name-div:hover .profile-tools{opacity: 1;}
+.profile-name-div{position: relative;
+                  display: flex;}
 .picture-content-container{display: flex;
                         flex-direction: row;
-                        align-items: center;
+                        align-items: start;
                         column-gap: 15px;}
 .housssam-heddad-picture{width: 100px;
                         height: 100px;
                         border-radius: 50px;}
 .content-container{     display: flex;
                         flex-direction: column;
-                        row-gap: 30px;}
+                        row-gap: 30px;
+                        align-items: start;}
 .haddadi-container{     display: flex;
                         flex-direction: row;
                         align-items: center;
@@ -57,7 +59,7 @@
                         justify-content: space-between;}
 .haddadi-para{          color: black;
                         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                        font-size: 25px;
+                        font-size: 24px;
                         font-weight: 700;}
 .x-icon{                width: 20px;
                         padding: 6px 4px 3px 4px;}
@@ -71,7 +73,7 @@
                         flex-direction: row;
                         height: 20px;
                         align-items: center;}
-.bag-business{          width:30px ;}
+.bag-business{          width:25px ;}
 .work-ultra{            display: flex;
                         flex-direction: row;
                         align-items: center;
@@ -79,15 +81,15 @@
 .work-para{             color: black;
                         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                         margin-left: 10px;
-                        font-size: 18px;}
+                        font-size: 16px;}
 .ultra-para{            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                         font-weight: 500;
-                        font-size: 18px;}
+                        font-size: 16px;}
 .buttons-tool{          display: flex;
                         flex-direction: row;
                         column-gap: 10px;}
-.messenger-chat-button{ width: 150px;
-                        height: 45px;
+.messenger-chat-button{ width: 135px;
+                        height: 37px;
                         display: flex;
                         flex-direction: row;
                         font-size: 17px;
@@ -97,8 +99,8 @@
                         border-radius: 8px;
                         border: none;}
 .messenger-chat{        width: 20px;}
-.folder-add-button{     width: 150px;
-                        height: 45px;
+.folder-add-button{     width: 135px;
+                        height: 37px;
                         display: flex;
                         flex-direction: row;
                         font-size: 17px;
@@ -111,7 +113,7 @@
                         color: white;
                         border: none;}
 .folder-add{            width: 23px;}
-.user-interface-button{ height: 45px;
+.user-interface-button{ height: 37px;
                         width: 55px;
                         border-radius: 8px;
                         border: none;
@@ -119,7 +121,7 @@
                         justify-content: center;
                         align-items: center;}
 .user-interface{        width: 20px;}
-.THREE_POINTS-button{   height: 45px;
+.THREE_POINTS-button{   height: 37px;
                         width: 55px;
                         border-radius: 8px;
                         border: none;
@@ -224,7 +226,8 @@
                     justify-content: space-between;
                     margin-left: 15px;
                     margin-top: 15px;
-                    width: 540px;}
+                    width: 540px;
+                    position: relative;}
 .link-to, .link-to:hover, .link-to:active{text-decoration: none}
 .link--to, .link--to:hover, .link--to:active{text-decoration: none;
                                              color:black ;}
