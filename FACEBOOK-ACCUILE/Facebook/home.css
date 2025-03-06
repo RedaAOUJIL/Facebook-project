@@ -20,7 +20,52 @@
 .profile-image{width: 40px;
                 height: 40px;
                 border-radius: 20px;
-                cursor: pointer;}
+                cursor: pointer;
+                position: relative;}
+.profile-tools{ position: absolute;
+                  display: flex;
+                  flex-direction: column;
+                  background-color: lightpink;}
+.picture-content-container{display: flex;
+                        flex-direction: row;
+                        align-items: center;}
+.housssam-heddad-picture{width: 100px;
+                        height: 100px;
+                        border-radius: 50px;}
+.content-container{     display: flex;
+                        flex-direction: column;}
+.haddadi-container{     display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        background-color: lightblue;
+                        justify-content: space-between;}
+.haddadi-para{          color: black;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-size: 25px;
+                        font-weight: 700;}
+.x-icon{                width: 20px;
+                        padding: 6px 4px 3px 4px;}
+.x-icon-button{         border-radius: 20px;
+                        border: none;}
+.bag-work-container{    display: flex;
+                        flex-direction: row;
+                        align-items: center;}
+.bag-business{          width:30px ;}
+.work-ultra{            display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        column-gap: 4px;}
+.work-para{             color: black;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        margin-left: 10px;
+                        font-size: 18px;}
+.ultra-para{            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 500;
+                        font-size: 18px;}
+.buttons-tool{          display: flex;
+                        flex-direction: row;}
+.messenger-chat-button{}
+
 .whats-bar{     width: 480px;
                 height: 40px;
                 margin-left: 10px;
