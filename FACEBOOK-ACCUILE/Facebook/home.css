@@ -25,19 +25,35 @@
 .profile-tools{ position: absolute;
                   display: flex;
                   flex-direction: column;
-                  background-color: lightpink;}
+                  justify-content: center;
+                  align-items: center;
+                  background-color: lightblue;
+                  width: 480px;
+                  bottom: 128px;
+                  left: 320px;
+                  border-radius: 8px;
+                  pointer-events: none;
+                  opacity: 0;
+                  z-index: 100;
+                  height: 230px;}
+.profile-image:hover .profile-tools{opacity: 1;
+                                    z-index: 100;}
 .picture-content-container{display: flex;
                         flex-direction: row;
-                        align-items: center;}
+                        align-items: center;
+                        column-gap: 15px;}
 .housssam-heddad-picture{width: 100px;
                         height: 100px;
                         border-radius: 50px;}
 .content-container{     display: flex;
-                        flex-direction: column;}
+                        flex-direction: column;
+                        row-gap: 30px;}
 .haddadi-container{     display: flex;
                         flex-direction: row;
                         align-items: center;
-                        background-color: lightblue;
+                        width: 330px;
+                        padding-left: 10px;
+                        height: 40px;
                         justify-content: space-between;}
 .haddadi-para{          color: black;
                         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -47,8 +63,13 @@
                         padding: 6px 4px 3px 4px;}
 .x-icon-button{         border-radius: 20px;
                         border: none;}
+.bag-work-div{          display: flex;
+                        flex-direction: column;
+                        row-gap: 20px;
+                        margin-bottom: 20px;}
 .bag-work-container{    display: flex;
                         flex-direction: row;
+                        height: 20px;
                         align-items: center;}
 .bag-business{          width:30px ;}
 .work-ultra{            display: flex;
@@ -63,7 +84,8 @@
                         font-weight: 500;
                         font-size: 18px;}
 .buttons-tool{          display: flex;
-                        flex-direction: row;}
+                        flex-direction: row;
+                        column-gap: 10px;}
 .messenger-chat-button{ width: 150px;
                         height: 45px;
                         display: flex;
@@ -84,9 +106,28 @@
                         align-items: center;
                         justify-content: center;
                         border-radius: 8px;
-                        background-color:#05acff ;
+                        background-color:#007dbb ;
+                        font-weight: 700;
+                        color: white;
                         border: none;}
-.folder-add{            width: 20px;}
+.folder-add{            width: 23px;}
+.user-interface-button{ height: 45px;
+                        width: 55px;
+                        border-radius: 8px;
+                        border: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;}
+.user-interface{        width: 20px;}
+.THREE_POINTS-button{   height: 45px;
+                        width: 55px;
+                        border-radius: 8px;
+                        border: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;}
+.user-interface{        width: 20px;}
+.THREE_POINTS{          width: 20px;}
 
 .whats-bar{     width: 480px;
                 height: 40px;
