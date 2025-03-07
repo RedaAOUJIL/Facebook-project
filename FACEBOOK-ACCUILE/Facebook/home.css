@@ -34,6 +34,19 @@
                   pointer-events: none;
                   opacity: 0;
                   height: 230px;}
+.haddadi-tools{ position: absolute;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: white;
+                  width: 480px;
+                  bottom: -230px;
+                  left: -100px;
+                  border-radius: 8px;
+                  pointer-events: none;
+                  opacity: 0;
+                  height: 230px;}
 .helala-tools{    position: absolute;
                   display: flex;
                   flex-direction: column;
