@@ -28,7 +28,7 @@
                   align-items: center;
                   background-color: white;
                   width: 480px;
-                  bottom: -230px;
+                  bottom: -240px;
                   left: -100px;
                   border-radius: 8px;
                   pointer-events: none;
@@ -42,11 +42,14 @@
                   background-color: white;
                   width: 480px;
                   bottom: -230px;
-                  left: -100px;
+                  left: -110px;
                   border-radius: 8px;
                   pointer-events: none;
                   opacity: 0;
                   height: 230px;}
+.houssam-account-container{position: relative;
+                          display: flex;}
+.houssam-account-container:hover .haddadi-tools{opacity: 1;}
 .helala-tools{    position: absolute;
                   display: flex;
                   flex-direction: column;
