@@ -69,29 +69,34 @@
                   justify-content: center;
                   align-items: center;
                   background-color: white;
-                  width: 480px;
+                  width: 440px;
                   bottom: -290px;
-                  left: -120px;
+                  left: -100px;
                   border-radius: 8px;
                   pointer-events: none;
                   opacity: 1;
-                  height: 500px;}
-.psychology-tools-div{  height: 500px;
-                        background-color: lightpink;
+                  height: 420px;}
+.psychology-tools-div{  height: 390px;
                         display: flex;
                         flex-direction: column;
-                        justify-content: stretch;
+                        row-gap: 50px;
                         align-items: center;}
 .psychology-content-container{display: flex;
                         flex-direction: row;
                         align-items: self-start;}
 .psy-content{           display: flex;
                         flex-direction: column;
-                        background-color: lightcyan;
-                        height: 300px;}
+                        height: 300px;
+                        row-gap: 20px;}
 .psy-work-container{    display: flex;
                         flex-direction: row;
-                        align-items: self-start;}
+                        align-items: start;
+                        background-color: lightcoral;}
+.psycho-work-container{ display: flex;
+                        flex-direction: row;
+                        height: 45px;
+                        align-items: center;
+                        background-color: lightcoral;}
 .work-arabe-para{       color: black;
                         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                         margin-left: 10px;
@@ -166,7 +171,7 @@
                         margin-bottom: 20px;}
 .psy-work-div{          display: flex;
                         flex-direction: column;
-                        row-gap: 8px;}
+                        row-gap: 15px;}
 .bag-work-container{    display: flex;
                         flex-direction: row;
                         height: 20px;
@@ -179,7 +184,6 @@
 .working-ultra{         display: flex;
                         flex-direction: row;
                         align-items: start;
-                        background-color: lightblue;
                         margin-left: 10px;}
 .paragraph-container{   display: flex;
                         flex-direction: row;
@@ -190,17 +194,17 @@
                         word-wrap: break-word;
                         overflow-wrap: break-word;
                         width: 240px;}
-.paragraph--container{   display: flex;
-                        flex-direction: row;
-                        align-items:start;
-                        margin: 0;
-                        margin-left: 10px;
-                        margin-top: -10px;
-                        align-items: start;
-                        background-color: lightblue;
-                        word-wrap: break-word;
-                        overflow-wrap: break-word;
-                        width: 235px;}
+.paragraph---container{   display: flex;
+                              flex-direction: row;
+                              align-items:start;
+                              background-color: lightblue;
+                              margin-left: 10px;
+                              margin-top: -10px;
+                              height: 40px;
+                              align-items: start;
+                              word-wrap: break-word;
+                              overflow-wrap: break-word;
+                              width: 235px;}
 .work-para{             color: black;
                         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                         margin-left: 10px;
