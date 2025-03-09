@@ -76,6 +76,21 @@
                   pointer-events: none;
                   opacity: 0;
                   height: 420px;}
+.psychology--tools{position: absolute;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: white;
+                        width: 440px;
+                        bottom: -400px;
+                        left: -100px;
+                        border-radius: 8px;
+                        pointer-events: none;
+                        opacity: 0;
+                        height: 420px;}
+.profile-name-container{position: relative;}
+.profile-name-container:hover .psychology--tools{opacity: 1;}
 .psychology-tools-div{  height: 390px;
                         display: flex;
                         flex-direction: column;
