@@ -63,6 +63,21 @@
                   pointer-events: none;
                   opacity: 0;
                   height: 280px;}
+.psychology-tools{position: absolute;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: white;
+                  width: 480px;
+                  bottom: -290px;
+                  left: -120px;
+                  border-radius: 8px;
+                  pointer-events: none;
+                  opacity: 1;
+                  height: 280px;}
+.psychology-picture-container{position: relative;}
+.psychology-picture-container:hover  .psychology-tools{opacity: 1;}
 .helala--tools{   position: absolute;
                   display: flex;
                   flex-direction: column;
