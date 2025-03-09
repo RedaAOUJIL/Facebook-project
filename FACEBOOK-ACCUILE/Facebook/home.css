@@ -498,6 +498,8 @@
                       font-weight: 500;}
 .time-para-container{position: relative;}
 .time-para--container{position: relative;}
+.time--para--container{position: relative;}
+
 .time-para-tool-container{position: absolute;
                         bottom: -40px;
                         right: -100px;
@@ -508,6 +510,11 @@
                               right: -100px;
                               pointer-events: none;
                               opacity: 0;}
+.time--para--tool-container{position: absolute;
+                              bottom: -40px;
+                              right: -110px;
+                              pointer-events: none;
+                              opacity: 0;}
 .time-para-tool{        background-color: black;
                         color: white;
                         padding: 10px 10px 10px 10px;
@@ -516,6 +523,7 @@
                         opacity: 0.8;}
 .time-para-container:hover .time-para-tool-container{opacity: 1;}
 .time-para--container:hover .time--para-tool-container{opacity: 1;} 
+.time--para--container:hover .time--para--tool-container{opacity: 1;}
 .time-para:hover{     text-decoration: underline;
                       text-decoration-thickness: 1px;}
 .dott-entity{         color: gray;
