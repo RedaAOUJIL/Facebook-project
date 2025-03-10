@@ -580,10 +580,26 @@
 .menu-x-container{    display: flex;
                       flex-direction: row;
                       justify-content: space-between;
-                      width: 60px;
+                      width: 85px;
                       align-items: center;}
 .points-bar{          width: 25px;}
 .x-bar{               width: 23px;}
+.points-bar-container{  display: flex;
+                        cursor: pointer;
+                        align-items: center;
+                        justify-content: center;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 20px;}
+.x-bar-container{       display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 40px;
+                        height: 40px;
+                        cursor: pointer;
+                        border-radius: 20px;}
+.x-bar-container:hover{ background-color: rgb(242, 242, 242);}
+.points-bar-container:hover{ background-color: rgb(242, 242, 242);}
 
 .arabs-div{           display: flex;
                       flex-direction: column;
