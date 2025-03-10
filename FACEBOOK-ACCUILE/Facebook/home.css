@@ -501,6 +501,7 @@
 .time--para--container{position: relative;}
 .audience-container{    position: relative;}
 .audience--container{    position: relative;}
+.audience---container{    position: relative;}
 .time-para-tool-container{position: absolute;
                         bottom: -40px;
                         right: -100px;
@@ -522,6 +523,11 @@
                               pointer-events: none;
                               opacity: 0;}
 .audience--tool-container{    position: absolute;
+                              bottom: -40px;
+                              right:-20px;
+                              pointer-events: none;
+                              opacity: 0;}
+.audience--tool--container{    position: absolute;
                               bottom: -40px;
                               right:-20px;
                               pointer-events: none;
@@ -550,6 +556,7 @@
 .time--para--container:hover .time--para--tool-container{opacity: 1;}
 .audience-containe:hover .audience-tool-container{opacity: 1;}
 .audience--container:hover .audience--tool-container{opacity: 1;}
+.audience---container:hover .audience--tool--container{opacity: 1;}
 .time-para:hover{     text-decoration: underline;
                       text-decoration-thickness: 1px;}
 .dott-entity{         color: gray;
