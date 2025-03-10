@@ -521,6 +521,12 @@
                         border-radius: 10px;
                         white-space: nowrap;
                         opacity: 0.8;}
+.time--para-tool{        background-color: black;
+                        color: white;
+                        padding: 10px 10px 8px 10px;
+                        border-radius: 10px;
+                        white-space: nowrap;
+                        opacity: 0.8;}
 .time-para-container:hover .time-para-tool-container{opacity: 1;}
 .time-para--container:hover .time--para-tool-container{opacity: 1;} 
 .time--para--container:hover .time--para--tool-container{opacity: 1;}
