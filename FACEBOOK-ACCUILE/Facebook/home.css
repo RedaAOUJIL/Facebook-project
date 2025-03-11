@@ -698,6 +698,8 @@
                     flex-direction: row;
                     align-items: center;}
 .like-emoji{        width: 20px;}
+.reacters span{      display: block;  }
+.reacters-button{}
 .heart-emoji{       width: 20px;}
 .solidary-emoji{    width: 20px;}
 .reaction-number{color: gray;
