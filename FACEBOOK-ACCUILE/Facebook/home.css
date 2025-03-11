@@ -697,18 +697,25 @@
 .emojis-container{  display: flex;
                     flex-direction: row;
                     align-items: center;}
-
+.like-emoji-container{position: relative;}
+.reacters-button-container{position: absolute;
+                              bottom: 0;}
 .like-emoji{        width: 20px;}
 .reacters span{      display: block;}
 .reacters-button{    color: white;
                         background-color: black;
                         opacity: 0.8;
+                        line-height: 17px;
+                        padding: 10px 10px 10px 15px;
+                        border: none;
+                        width: 100px;
+                        border-radius: 10px;
                         text-align: left;}
 .reacters{              font-size: 12px;
                         margin: 0;}
 .header{                font-weight: bold;
                         margin: 0;}
-/** I stopp here**/
+
 .heart-emoji{       width: 20px;}
 .solidary-emoji{    width: 20px;}
 .reaction-number{color: gray;
