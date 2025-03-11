@@ -703,6 +703,8 @@
                         cursor: pointer;}
 .like--emoji--container{position: relative;
                         cursor: pointer;}
+.reaction-number-container{position: relative;
+                        cursor: pointer;}
 .reacters-button-container{position: absolute;
                               z-index: 2;
                               left: -50px;
@@ -721,9 +723,16 @@
                               opacity: 0;
                               pointer-events: none;
                               bottom: -200px;}
+.reacters---button--container{position: absolute;
+                              z-index: 2;
+                              left: -20px;
+                              opacity: 0;
+                              pointer-events: none;
+                              bottom: -170px;}
 .like-emoji-container:hover .reacters-button-container{opacity: 1;}
 .like--emoji-container:hover .reacters--button-container{opacity: 1;}
 .like--emoji--container:hover .reacters--button--container{opacity: 1;}
+.reaction-number-container:hover .reacters---button--container{opacity: 1;}
 .like-emoji{        width: 20px;}
 .reacters span{      display: block;}
 .reacters-button{    color: white;
