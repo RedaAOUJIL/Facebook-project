@@ -697,9 +697,33 @@
 .emojis-container{  display: flex;
                     flex-direction: row;
                     align-items: center;}
-.like-emoji-container{position: relative;}
+.like-emoji-container{position: relative;
+                        cursor: pointer;}
+.like--emoji-container{position: relative;
+                        cursor: pointer;}
+.like--emoji--container{position: relative;
+                        cursor: pointer;}
 .reacters-button-container{position: absolute;
-                              bottom: 0;}
+                              z-index: 2;
+                              left: -50px;
+                              opacity: 0;
+                              pointer-events: none;
+                              bottom: -200px;}
+.reacters--button-container{position: absolute;
+                              z-index: 2;
+                              left: -50px;
+                              opacity: 0;
+                              pointer-events: none;
+                              bottom: -200px;}
+.reacters--button--container{position: absolute;
+                              z-index: 2;
+                              left: -20px;
+                              opacity: 0;
+                              pointer-events: none;
+                              bottom: -200px;}
+.like-emoji-container:hover .reacters-button-container{opacity: 1;}
+.like--emoji-container:hover .reacters--button-container{opacity: 1;}
+.like--emoji--container:hover .reacters--button--container{opacity: 1;}
 .like-emoji{        width: 20px;}
 .reacters span{      display: block;}
 .reacters-button{    color: white;
@@ -708,7 +732,7 @@
                         line-height: 17px;
                         padding: 10px 10px 10px 15px;
                         border: none;
-                        width: 100px;
+                        width: 120px;
                         border-radius: 10px;
                         text-align: left;}
 .reacters{              font-size: 12px;
