@@ -699,7 +699,11 @@
                     align-items: center;}
 .like-emoji{        width: 20px;}
 .reacters span{      display: block;  }
-.reacters-button{}
+.reacters-button{    color: white;
+                        background-color: black;
+                        opacity: 0.8;
+                        text-align: left;
+                        ;}
 .heart-emoji{       width: 20px;}
 .solidary-emoji{    width: 20px;}
 .reaction-number{color: gray;
