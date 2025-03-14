@@ -837,12 +837,16 @@
                               flex-direction: row;
                               column-gap: 10px;}
 .like-container{              position: relative;}
-.like--container{              position: relative;
-                              background-color: lightblue;
-                              display: flex;
+.like--container{              display: flex;
                               flex-direction: row;
+                              width: 100%;
+                              height: 30px;
+                              position: relative;
                               align-items: center;
-                              height: 20px;}
+                              justify-content: center;
+                              border-radius: 8px;
+                              cursor: pointer;
+                              align-items: center;}
 .emoji-container{             display: flex;
                               flex-direction: row;
                               position: absolute;
