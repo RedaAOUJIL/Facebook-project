@@ -4,11 +4,7 @@ body{margin-top: 75px;
     margin-right: 400px;
     background-color:rgb(234, 236, 242) ;}
 
-@media (min-width: 1330px) {
-    .right-side-bar{opacity: 1;} 
-}
-@media (min-width:1000px){
-    .left-side-bar{
-        opacity: 1;
-    }
-}
+@media (min-width: 1218px) {
+    .right-side-bar{opacity: 1;} }
+@media (min-width:1220px){
+    .left-side-bar{opacity: 1;}}

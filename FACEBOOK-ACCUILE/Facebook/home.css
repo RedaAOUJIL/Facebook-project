@@ -1,6 +1,7 @@
 .Home{display: flex;
       flex-direction: column;
-      width: 580px;
+      justify-content: center;
+      align-items: center;
       row-gap: 8px;}
 
 
