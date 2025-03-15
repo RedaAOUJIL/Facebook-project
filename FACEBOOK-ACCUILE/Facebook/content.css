@@ -8,3 +8,6 @@ body{margin-top: 75px;
     .right-side-bar{opacity: 1;} }
 @media (min-width:1220px){
     .left-side-bar{opacity: 1;}}
+@media (min-width:1260px) {
+    .find-button{opacity: 1;}
+    .search-facebook{opacity: 1;}}
