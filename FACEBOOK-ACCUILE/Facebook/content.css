@@ -5,12 +5,12 @@ body{margin-top: 75px;
     background-color:rgb(234, 236, 242) ;}
 
 @media (min-width: 1218px) {
-    .right-side-bar{visibility: visible;} }
+    .right-side-bar{display: flex;} }
 @media (min-width:1220px){
-    .left-side-bar{visibility:visible;}}
+    .left-side-bar{display:flex;}}
 @media (min-width:1260px) {
-    .find-button{visibility:visible;;}
-    .search-facebook{visibility:visible;;}
+    .find-button{visibility: visible;;}
+    .search-facebook{display: block;}
     .search-logo-button{width: 38px;
                         height: 40px;
                         background-color:  rgb(235, 234, 234);
@@ -18,5 +18,5 @@ body{margin-top: 75px;
                         border-top-left-radius: 18px;
                         border-bottom-left-radius: 18px;}}
 @media (min-width:700px) {
-    .center-side{visibility: visible;}
+    .center-side{display: flex;}
 }

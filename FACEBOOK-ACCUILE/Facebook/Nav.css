@@ -38,7 +38,7 @@
                     margin-left: -1px;
                     border-left: none;
                     border: none;
-                    visibility: hidden;
+                    display: none;
                     background-color:  rgb(235, 234, 234);
                     border-top-right-radius: 18px;
                     border-bottom-right-radius: 18px;}
@@ -50,7 +50,7 @@
                               justify-content: space-between;
                               align-items: center;
                               background-color: lightpink;
-                              visibility:hidden;
+                              display:none;
                               width: 380px;}
 .home-logo-button{            width: 100px;
                               height: 50px;  
@@ -121,12 +121,9 @@
                                 flex-direction: row;
                                 align-items: center;
                                 justify-content: space-between;
-                                max-width: 280px;
-                                width: 0;
-                                min-width: 0;
-                                background-color: lightblue;
-                                flex: 1;
-                                margin-right: 30px;}
+                                background-color: lightgreen;
+                                width: 280px;
+                                padding-right: 30px;}
 .find-button{                   padding: 10px 10px 10px 10px;
                                 border-radius: 18px;
                                 border: none;
