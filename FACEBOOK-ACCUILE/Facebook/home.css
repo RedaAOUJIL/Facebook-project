@@ -732,13 +732,50 @@
                               bottom: -206px;}
 .comments-number-container{position: relative;
                               cursor: pointer;}
+.comments--number-container{position: relative;
+                              cursor: pointer;}
 .commenters-button-container{position: absolute;
                               z-index: 2;
                               left: -20px;
                               opacity: 0;
                               pointer-events: none;
                               bottom: -170px;}
+.commenters--button-container{position: absolute;
+                              z-index:2;
+                              left: -50px;
+                              opacity: 0;
+                              pointer-events: none;
+                              bottom: -313px;}
+.commenters--button--container{position: absolute;
+                              z-index:2;
+                              left: -50px;
+                              opacity: 0;
+                              pointer-events: none;
+                              bottom: -313px;}
+.commenters---button--container{position: absolute;
+                              z-index:2;
+                              left: -50px;
+                              opacity: 0;
+                              pointer-events: none;
+                              bottom: -313px;}
+.commenters---button---container{position: absolute;
+                                    z-index:2;
+                                    left: -30px;
+                                    opacity: 0;
+                                    pointer-events: none;
+                                    bottom: -300px;}
+.commenters----button---container{position: absolute;
+                                    z-index:2;
+                                    left: -10px;
+                                    opacity: 0;
+                                    pointer-events: none;
+                                    bottom: -300px;}
 .comments-number-container:hover .commenters-button-container{opacity: 1;}
+.comments--number-container:hover .commenters--button-container{opacity: 1;}
+.comments--number-container:hover .commenters--button--container{opacity: 1;}
+.comments--number-container:hover .commenters---button--container{opacity: 1;}
+.comments--number-container:hover .commenters---button---container{opacity: 1;}
+.comments--number-container:hover .commenters----button---container{opacity: 1;}
 
 .like-emoji-container:hover .reacters-button-container{opacity: 1;}
 .like--emoji-container:hover .reacters--button-container{opacity: 1;}
