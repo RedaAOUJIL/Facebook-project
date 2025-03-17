@@ -17,3 +17,6 @@ body{margin-top: 75px;
                         border: none;
                         border-top-left-radius: 18px;
                         border-bottom-left-radius: 18px;}}
+@media (min-width:700px) {
+    .center-side{visibility: visible;}
+}
