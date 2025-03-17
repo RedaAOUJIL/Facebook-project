@@ -25,7 +25,8 @@
                         height: 40px;
                         background-color:  rgb(235, 234, 234);
                         border: none;
-                        border-radius: 18px;}
+                        border-top-left-radius: 18px;
+                        border-bottom-left-radius: 18px;}
 .search-logo{       width: 21px;}
 .search-facebook{   width: 200px;
                     height: 40px;
