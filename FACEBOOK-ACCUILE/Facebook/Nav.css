@@ -22,11 +22,10 @@
 .search-contatiner{display: flex;
                     flex-direction: row;}
 .search-logo-button{width: 38px;
-                    height: 40px;;
-                    border: none;
-                    border-top-left-radius: 18px;
-                    border-bottom-left-radius: 18px;
-                    background-color: rgb(235, 234, 234);}
+                        height: 40px;
+                        background-color:  rgb(235, 234, 234);
+                        border: none;
+                        border-radius: 18px;}
 .search-logo{       width: 21px;}
 .search-facebook{   width: 200px;
                     height: 40px;
