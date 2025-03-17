@@ -5,9 +5,9 @@ body{margin-top: 75px;
     background-color:rgb(234, 236, 242) ;}
 
 @media (min-width: 1218px) {
-    .right-side-bar{display: none;} }
+    .right-side-bar{visibility: visible;} }
 @media (min-width:1220px){
-    .left-side-bar{display: none;}}
+    .left-side-bar{visibility:visible;}}
 @media (min-width:1260px) {
-    .find-button{display: none;}
-    .search-facebook{display: none;}}
+    .find-button{visibility:visible;;}
+    .search-facebook{visibility:visible;;}}

@@ -33,7 +33,6 @@
                     margin-left: -1px;
                     border-left: none;
                     border: none;
-                    opacity: 0;
                     background-color:  rgb(235, 234, 234);
                     border-top-right-radius: 18px;
                     border-bottom-right-radius: 18px;}
@@ -121,7 +120,6 @@
                                 border: none;
                                 text-decoration: none;
                                 white-space: nowrap;
-                                opacity: 0;
                                 background-color: rgb(228, 228, 228);
                                 font-family: Arial, Helvetica, sans-serif;
                                 font-size: 14px;
