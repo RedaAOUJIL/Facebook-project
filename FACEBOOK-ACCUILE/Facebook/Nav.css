@@ -13,10 +13,9 @@
 .left-side{display: flex;
           flex-direction: row;
           flex: 1;
-          min-width: 100px;
+          min-width: 220px;
           width: 0;
           max-width: 400px;
-          background-color: lightblue;
           align-items: center;}
 
 .Facebook-logo{width: 40px;
@@ -49,7 +48,6 @@
                               flex-direction: row;
                               justify-content: space-between;
                               align-items: center;
-                              background-color: lightpink;
                               display:none;
                               width: 380px;}
 .home-logo-button{            width: 100px;
@@ -121,7 +119,6 @@
                                 flex-direction: row;
                                 align-items: center;
                                 justify-content: space-between;
-                                background-color: lightgreen;
                                 width: 280px;
                                 padding-right: 30px;}
 .find-button{                   padding: 10px 10px 10px 10px;
