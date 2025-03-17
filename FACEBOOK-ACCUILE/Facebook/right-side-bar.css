@@ -5,6 +5,7 @@
                 right: 0;
                 top: 60px;
                 bottom: 0;
+                visibility: hidden;
                 padding-left: 10px;
                 z-index: 1;
                 width: 300px;}

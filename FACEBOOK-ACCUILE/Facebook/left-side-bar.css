@@ -6,6 +6,7 @@
               bottom: 0;
               top: 65px;
               z-index: 100;
+              visibility: hidden;
               width: 300px;
               padding-top: 20px;
               padding-left: 10px;}

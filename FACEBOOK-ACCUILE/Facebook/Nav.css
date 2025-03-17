@@ -33,6 +33,7 @@
                     margin-left: -1px;
                     border-left: none;
                     border: none;
+                    visibility: hidden;
                     background-color:  rgb(235, 234, 234);
                     border-top-right-radius: 18px;
                     border-bottom-right-radius: 18px;}
@@ -123,6 +124,7 @@
                                 background-color: rgb(228, 228, 228);
                                 font-family: Arial, Helvetica, sans-serif;
                                 font-size: 14px;
+                                visibility: hidden;
                                 font-weight: bold;
                                 cursor: pointer;}
 .find-button-link, .find-button-link:active, .find-button-link:visited {text-decoration: none;
