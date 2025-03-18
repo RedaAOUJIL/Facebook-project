@@ -1,7 +1,6 @@
 body{margin-top: 75px;
     padding-bottom: 1000px;
     background-color:rgb(234, 236, 242) }
-/** rgb(234, 236, 242) **/
 @media (min-width: 1218px) {
     .right-side-bar{display: flex;} }
 @media (min-width:1220px){
@@ -13,8 +12,7 @@ body{margin-top: 75px;
                         height: 40px;
                         background-color:  rgb(235, 234, 234);
                         border: none;
-                        border-top-left-radius: 18px;
-                        border-bottom-left-radius: 18px;}}
+                        }}
 @media (min-width:700px) {
     .center-side{display: flex;}
 }

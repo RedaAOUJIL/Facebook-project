@@ -25,12 +25,10 @@
 
 .search-contatiner{display: flex;
                     flex-direction: row;}
-.search-logo-button{width: 38px;
-                        height: 40px;
+.search-logo-button{    padding: 10px 10px 5px 10px;
                         background-color:  rgb(235, 234, 234);
                         border: none;
-                        border-top-left-radius: 18px;
-                        border-bottom-left-radius: 18px;}
+                        border-radius: 20px;}
 .search-logo{       width: 21px;}
 .search-facebook{   width: 200px;
                     height: 40px;
@@ -38,6 +36,8 @@
                     border-left: none;
                     border: none;
                     display: none;
+                    clip-path: polygon(0% 0%, 20% 10%, 40% 0%, 60% 10%, 80% 0%, 100% 0%,
+                                     100% 100%, 80% 90%, 60% 100%, 40% 90%, 20% 100%, 0% 100%,);
                     background-color:  rgb(235, 234, 234);
                     border-top-right-radius: 18px;
                     border-bottom-right-radius: 18px;}
