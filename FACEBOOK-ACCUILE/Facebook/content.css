@@ -1,7 +1,7 @@
 body{margin-top: 75px;
     padding-bottom: 1000px;
-    background-color:rgb(234, 236, 242) ;}
-
+    background-color:rgb(234, 236, 242) }
+/** rgb(234, 236, 242) **/
 @media (min-width: 1218px) {
     .right-side-bar{display: flex;} }
 @media (min-width:1220px){

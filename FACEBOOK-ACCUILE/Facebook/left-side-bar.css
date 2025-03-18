@@ -4,8 +4,8 @@
               position: fixed;
               left: 0;
               bottom: 0;
-              top: 65px;
-              z-index: 100;
+              top: 60px;
+              z-index: 1;
               display: none;
               width: 300px;
               padding-top: 20px;
