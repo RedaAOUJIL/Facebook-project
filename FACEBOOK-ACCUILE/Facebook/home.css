@@ -775,7 +775,7 @@
                               left: -10px;
                               opacity: 0;
                               pointer-events: none;
-                              bottom: -300px;}
+                              bottom: -334px;}
 .comments-number-container:hover .commenters-button-container{opacity: 1;}
 .comments--number-container:hover .commenters--button-container{opacity: 1;}
 .comments--number-container:hover .commenters--button--container{opacity: 1;}
