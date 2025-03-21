@@ -778,6 +778,12 @@
                               opacity: 0;
                               pointer-events: none;
                               bottom: -334px;}
+.commenters-----button----container{position: absolute;
+                                    z-index:2;
+                                    left: -10px;
+                                    opacity: 1;
+                                    pointer-events: none;
+                                    bottom: -334px;}
 .comments-number-container:hover .commenters-button-container{opacity: 1;}
 .comments--number-container:hover .commenters--button-container{opacity: 1;}
 .comments--number-container:hover .commenters--button--container{opacity: 1;}
@@ -785,6 +791,7 @@
 .comments--number-container:hover .commenters---button---container{opacity: 1;}
 .comments--number-container:hover .commenters----button---container{opacity: 1;}
 .comments--number-container:hover .commenters----button----container{opacity: 1;}
+.comments--number--container:hover .commenters-----button----container{opacity: 1;}
 
 .like-emoji-container:hover .reacters-button-container{opacity: 1;}
 .like--emoji-container:hover .reacters--button-container{opacity: 1;}
